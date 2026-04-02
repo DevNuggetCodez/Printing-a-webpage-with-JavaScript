@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Print A Webpage In A Web Application Using JavaScript</title>
+</head>
+<body>
+    <h1>Printing a webpage using JavaScript</h1>
+    <button id="print">Printing</button>
+
+    <script>
+        const printBtn = document.getElementById('print');
+        printBtn.addEventListener('click', ()=>{
+            window.print()
+        })
+    </script>
+</body>
+</html>
